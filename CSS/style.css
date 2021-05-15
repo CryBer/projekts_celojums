@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(154, 187, 224);
+
+
+}
+/*augšas header*/
+#header{
+    background-color: rgba(41, 127, 226, 1);
+    position: absolute;
+    width: 99.76%;
+    height: 18%;
+    left: 0px;
+    top: 0px;
+    border: solid 2px black;
+
+    opacity: 0.8;
+}
+/*meklēšanas forma*/
+#search{
+    position: absolute;
+    width: 445px;
+    height: 72px;
+    left: 175px;
+    top: 39px;
+
+    background: rgba(196, 196, 196, 0.15);
+    mix-blend-mode: normal;
+    border: 1.3px solid #000000;
+    box-sizing: border-box;
+}
+/*poga meklēt*/
+#meklet{
+    position: absolute;
+    width: 116px;
+    height: 22px;
+    left: 312px;
+    top: 31px;
+
+    background: #FFFFFF;
+    border: 1.3px solid #000000;
+    box-sizing: border-box;
+}
+/*datuma ievades lauks*/
+input#datums{
+    position: absolute;
+    width: 137px;
+    height: 22px;
+    left: 171px;
+    top: 31px;
+
+    background: #FFFFFF;
+    border: 1.3px solid #000000;
+    box-sizing: border-box;
+}
+/*valsts ievades lauks*/
+input#valsts{
+    position: absolute;
+    width: 139px;
+    height: 22px;
+    left: 28px;
+    top: 31px;
+    
+    background: #FFFFFF;
+    border: 1.3px solid #000000;
+    box-sizing: border-box;
+}
+/*kontaktu forma*/
+#kontakti{
+    position: absolute;
+    width: 15%;
+    height: 16%;
+    left: 83%;
+    top: 1.4%;
+    
+    background: rgba(196, 196, 196, 0.1);
+    border: 1.3px solid #000000;
+    box-sizing: border-box;}
+/*kontaktinformācija*/
+p{
+    position: absolute;
+    left: 18%;
+    top: 0%;
+    
+    font-family: Asap;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.017em;
+}
+#image{
+    position: absolute;
+    width: 138px;
+    height: 128px;
+    left: 15px;
+    top: 11px;
+    
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
