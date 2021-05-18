@@ -25,3 +25,6 @@ Rezervācijas drukāšana notiek izveidojot html dokumentu ar šādu tabulu:
 
 Rezervācijas Nr. var būt paša izdomāts viņam ir jāģenerējas automātiski un jābūt unikālam.
 Visi dati ir jāsaglabā failos.
+
+## Figma links:
+https://www.figma.com/file/cFgIQQc0BBLAqtTgWjUV67/Untitled?node-id=0%3A1
