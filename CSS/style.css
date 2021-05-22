@@ -1,44 +1,61 @@
 body {
     background-color: rgb(154, 187, 224);
-
-
+    width: 100%;
+    height: 100%;
 }
+
 /*augšas header*/
 #header{
     background-color: rgba(41, 127, 226, 1);
     position: absolute;
-    width: 99.76%;
+    width: 100%;
     height: 18%;
     left: 0px;
     top: 0px;
-    border: solid 2px black;
-
+    border: solid 3px black;
     opacity: 0.8;
 }
+
 /*meklēšanas forma*/
 #search{
     position: absolute;
-    width: 445px;
-    height: 72px;
-    left: 175px;
+    width: 550px;
+    height: 95px;
+    left: 325px;
     top: 39px;
-
     background: rgba(196, 196, 196, 0.15);
     mix-blend-mode: normal;
-    border: 1.3px solid #000000;
+    border: 2px solid #000000;
     box-sizing: border-box;
 }
+
+h1{
+    position: absolute;
+    font-size: 17px;
+    left: 80px;
+    top: -10px;
+    font-size: 25px;
+}
+
+h2{
+    position: absolute;
+    font-size: 17px;
+    left: 246px;
+    top: -14px;
+    font-size: 25px;
+}
+
 /*poga meklēt*/
 #meklet{
     position: absolute;
-    width: 116px;
-    height: 22px;
-    left: 312px;
-    top: 31px;
-
+    width: 140px;
+    height: 32px;
+    left: 376px;
+    top: 41px;
     background: #FFFFFF;
     border: 1.3px solid #000000;
     box-sizing: border-box;
+    font-size: 20px;
 }
 
 /* pogas meklēt animācija */
@@ -52,52 +69,39 @@ body {
 /*datuma ievades lauks*/
 input#datums{
     position: absolute;
-    width: 137px;
-    height: 22px;
-    left: 171px;
-    top: 31px;
-
+    width: 160px;
+    height: 32px;
+    left: 207px;
+    top: 41px;
     background: #FFFFFF;
     border: 1.3px solid #000000;
     box-sizing: border-box;
+    font-size: 20px;
 }
+
 /*valsts ievades lauks*/
 input#valsts{
     position: absolute;
-    width: 139px;
-    height: 22px;
+    width: 170px;
+    height: 32px;
     left: 28px;
-    top: 31px;
-    
+    top: 41px;
     background: #FFFFFF;
     border: 1.3px solid #000000;
     box-sizing: border-box;
+    font-size: 20px;
 }
+
 /*kontaktu forma*/
 #kontakti{
     position: absolute;
     width: 15%;
     height: 16%;
-    left: 83%;
+    left: 84%;
     top: 1.4%;
-    
     background: rgba(196, 196, 196, 0.1);
-    border: 1.3px solid #000000;
-    box-sizing: border-box;}
-/*kontaktinformācija*/
-p{
-    position: absolute;
-    left: 18%;
-    top: 0%;
-    
-    font-family: Asap;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.017em;
+    border: 2px solid #000000;
+    box-sizing: border-box;
 }
 
 /* logo */
@@ -119,13 +123,12 @@ img{
     position: absolute;
     width: 40%;
     height: 693px;
-    left: 59.74%;
+    left: 60%;
     top: 18.36%;
-    
-    border: solid 2px black;
+    border: solid 3px black;
 }
 
-/* Uzraksts 'Rezervācijas' */
+/* Uzraksts 'Rezervācijas */
 h5{
     position: absolute;
     left: 42%;
@@ -139,4 +142,11 @@ h5{
     display: flex;
     align-items: center;
     letter-spacing: -0.017em;
+}
+
+/* Kontaktinformacija */
+h4{
+    font-size: 17px;
+    text-align: center;
+    line-height: 21px;
 }
