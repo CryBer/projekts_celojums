@@ -112,8 +112,9 @@ img{
     box-sizing: border-box;
 }
 
-/* Labās puses logs, kur pogas peivienot un atcelt */
+/* Labās puses logs, kur pogas pievienot un atcelt */
 #main2{
+    display: flex;
     background-color: rgb(154, 187, 224);
     position: absolute;
     width: 40%;
@@ -123,36 +124,19 @@ img{
     
     border: solid 2px black;
 }
-/* poga pievienot */
-#poga{
-    display: flex;
-    justify-content: center;
-    align-items: center
-}
-/* poga pievienot */
-#pievienot{
+
+/* Uzraksts 'Rezervācijas' */
+h5{
     position: absolute;
-    width: 35%;
-    height: 39px;
-    left: 2%;
-    top: 3%;
-    
-    background: rgba(41, 127, 226, 1);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    background-color: transparent;
-    
+    left: 42%;
+    top: -5%;
+
     font-family: Asap;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
-
-}
-/* pogas pievienot animācija */
-#pievienot:hover{ 
-    box-shadow: 0 0 40px 40px #569AFF
-    inset;
-    color: white;
-    outline: none;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.017em;
 }
