@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    background: #F47D7D;
+}
+
+.oval {
+    
+    height: 300px;
+    width: 1800px;
+    background-color: #555;
+    border-radius: 50%;
+}
