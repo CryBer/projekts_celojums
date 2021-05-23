@@ -100,18 +100,6 @@ p{
     letter-spacing: -0.017em;
 }
 
-/* logo */
-img{
-    position: absolute;
-    width: 138px;
-    height: 128px;
-    left: 15px;
-    top: 11px;
-    
-    border: 3px solid #000000;
-    box-sizing: border-box;
-}
-
 /* Labās puses logs, kur pogas peivienot un atcelt */
 #main2{
     background-color: rgb(154, 187, 224);
@@ -175,7 +163,7 @@ h5{
 
 /* Kontaktinformacija */
 h4{
-    font-size: 80%;
+    font-size: 100%;
     text-align: center;
     line-height: 21px;
 }
