@@ -7,7 +7,7 @@ body {
 #header{
     background-color: rgba(41, 127, 226, 1);
     position: absolute;
-    width: 99.80%;
+    width: 99.70%;
     height: 18%;
     left: 0px;
     top: 0px;
@@ -105,8 +105,8 @@ p{
     background-color: rgb(154, 187, 224);
     position: absolute;
     width: 40%;
-    height: 693px;
-    left: 59.80%;
+    height: 81.10%;
+    left: 59.70%;
     top: 18.36%;
     
     border: solid 2px black;
@@ -163,7 +163,7 @@ h5{
 
 /* Kontaktinformacija */
 h4{
-    font-size: 100%;
+    font-size: 14px;
     text-align: center;
     line-height: 21px;
 }

@@ -5,7 +5,7 @@ body {
 }
 /*augšas header*/
 #header{
-    background-color: rgba(41, 127, 226, 1);
+    background: linear-gradient(to bottom, #0099cc 0%, #3366ff 100%);
     position: absolute;
     width: 99.70%;
     height: 18%;
@@ -20,7 +20,7 @@ body {
     position: absolute;
     width: 38%;
     height: 68%;
-    left: 30%;
+    left: 34%;
     top: 20%;
     background: rgba(196, 196, 196, 0.15);
     mix-blend-mode: normal;
@@ -138,7 +138,7 @@ p{
 
 /* Kontaktinformacija */
 h4{
-    font-size: 100%;
+    font-size: 14px;
     text-align: center;
     line-height: 21px;
 }
@@ -157,4 +157,35 @@ h2{
     left: 45%;
     top: -10%;
     font-size: 25px;
+}
+
+/*Poga pievienot ceļojumu*/
+#pievienot_celojumu{
+    position: absolute;
+    width: 15%;
+    height: 5%;
+    left: 45%;
+    top: 90%;
+    background: #FFFFFF;
+    border: 1.3px solid #000000;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+/* pogas pievienot ceļojumu animācija */
+#pievienot_celojumu:hover{
+    box-shadow: 0 0 40px 40px #569AFF
+    inset;
+    color: white;
+    outline: none;
+}
+
+#main1{
+    background: linear-gradient(to bottom, #0099cc 0%, #3366ff 100%);
+    position: absolute;
+    width: 99.70%;
+    height: 81.1%;
+    left: 0%;
+    top: 18.40%;
+    border: solid 2px black;
 }
