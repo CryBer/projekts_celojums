@@ -189,3 +189,144 @@ h2{
     top: 18.40%;
     border: solid 2px black;
 }
+
+/*infor logs 2*/
+#infologs2{
+    position: absolute;
+    width: 47%;
+    height: 35%;
+    left: 30%;
+    top: 45%;
+
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
+/*infor logs 1*/
+#infologs1{
+    position: absolute;
+    width: 47%;
+    height: 35%;
+    left: 30%;
+    top: 5%;
+
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
+/*Paši apraksta logi*/
+#infologaapraksts{
+    position: absolute;
+    width: 55%;
+    height: 45%;
+    left: 2%;
+    top: 30%;
+
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
+/*Teksts "Apraksts" apraksta logā*/
+#p2p.center {
+    position: absolute;
+    width: 58px;
+    height: 26px;
+    left: 40%;
+    top: 30%;
+
+    font-family: Asap;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.017em;
+}
+/*Logs Ar valsts nosaukumu*/
+  #infologavalstsnosakums{
+    position: absolute;
+    width: 55%;
+    height: 20%;
+    left: 2%;
+    top: 7%;
+
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
+/*Valsts nosaukums*/
+#valsts_nosaukums{
+    position: absolute;
+    width: 58px;
+    height: 26px;
+    left: 40%;
+    top: 30%;
+
+    font-family: Asap;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.017em;
+}
+
+/*Dzēšanas poga*/
+#delete_poga{
+    position: absolute;
+    width: 35%;
+    height: 39px;
+    left: 10%;
+    top: 80%;
+    
+    background: linear-gradient(to bottom, #0099cc 0%, #3366ff 100%);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    background-color: transparent;
+    
+    font-family: Asap;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+/*Dzēšanas pogas animāciaj*/
+#delete_poga:hover{ 
+    box-shadow: 0 0 40px 40px #569AFF
+    inset;
+    color: white;
+    outline: none;
+}
+
+/*Rediģēt ceļojumu poga*/
+#redig_poga{
+    position: absolute;
+    width: 35%;
+    height: 39px;
+    left: 50%;
+    top: 80%;
+    
+    background: linear-gradient(to bottom, #0099cc 0%, #3366ff 100%);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    background-color: transparent;
+    
+    font-family: Asap;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+/*Rediģēt ceļojumu pogas animācija*/
+#redig_poga:hover{ 
+    box-shadow: 0 0 40px 40px #569AFF
+    inset;
+    color: white;
+    outline: none;
+}
