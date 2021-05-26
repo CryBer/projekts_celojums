@@ -1,80 +1,46 @@
 body {
-    width: 100%;
-    height: 100%;
-}
-
-body:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(to bottom, #FE6B00 0%, #0118E7 100%);
-    content: '';
-    z-index: -1;
+    margin: 0;
+    border: 2px solid black;
+    background: url(travel.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 button {
     position: fixed;
     top: 36%;
-    left: 40.5%;
+    left: 41%;
     border-radius: 50%;
     border: 4px solid black;
-    background: #ff8080;
-    height: 35%;
-    width: 20%;
+    height: 34%;
+    width: 17%;
 }
 button:hover{ 
-    box-shadow: 0 0 40px 40px #ff6666
+    box-shadow: 0 0 40px 40px lightgrey
     inset;
-    color: white;
     outline: none;
 }
 img {
-    height: 196px;
-    width: 196px;
-    border-radius: 50%;
-}
-
-.oval {
-    position: fixed;
-    height: 45%;
-    width: 130%;
-    border-radius: 50%;
-    margin-top: -12%;
-    margin-left: -13%;
-    border: 4px solid black;
-    height: 400;
-    background: linear-gradient(to bottom, #FE6B00 0%, #0118E7 100%);
-    
-}
-
-.circle {
-    border-radius: 50%;
-    position: fixed;
-    background: linear-gradient(to bottom, #FE6B00 -20%, #0118E7 100%);
-    height: 100%;
-    width: 55%;
-    top: 55%;
-    left: -23%;
-    border: 4px solid black;
-}
-
-.circle1 {
-    border-radius: 50%;
-    position: fixed;
-    background: linear-gradient(to bottom, #FE6B00 -20%, #0118E7 100%);
-    height: 100%;
-    width: 55%;
-    top: 55%;
-    right: -23%;
-    border: 4px solid black;
+    padding: 100px;
+    background: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 h1 {
-    position: fixed;
-    top: 2%;
-    left: 19%;
+    text-align: center;
     font-size: 60px;
-    color:peachpuff;
+    color:black;
+}
+
+#top {
+    margin: auto;
+    width: 99.19%;
+    border: 5px solid black;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    padding: 3px;
+    position: absolute;
+    background-color:lightgray;
 }
