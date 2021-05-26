@@ -270,7 +270,7 @@ h2{
 #rezervet_poga{
     position: absolute;
     width: 35%;
-    height: 39px;
+    height: 15%;
     left: 10%;
     top: 80%;
     
@@ -293,3 +293,4 @@ h2{
     color: white;
     outline: none;
 }
+

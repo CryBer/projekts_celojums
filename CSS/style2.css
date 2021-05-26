@@ -20,7 +20,7 @@ body {
     position: absolute;
     width: 38%;
     height: 68%;
-    left: 34%;
+    left: 30%;
     top: 20%;
     background: rgba(196, 196, 196, 0.15);
     mix-blend-mode: normal;
@@ -285,7 +285,7 @@ h2{
     border: 1px solid #000000;
     box-sizing: border-box;
     background-color: transparent;
-    
+
     font-family: Asap;
     font-style: normal;
     font-weight: normal;
@@ -325,6 +325,124 @@ h2{
 
 /*Rediģēt ceļojumu pogas animācija*/
 #redig_poga:hover{ 
+    box-shadow: 0 0 40px 40px #569AFF
+    inset;
+    color: white;
+    outline: none;
+}
+/*________________________________________________________________________*/
+/*Popup kad spiež*/
+#popup{
+    position: absolute;
+    width: 40%;
+    height: 95%;
+    left: 29%;
+    top: 1%;
+    
+    background: linear-gradient(to bottom, #0099cc 0%, #3366ff 100%);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+#popup_valsts_src{
+    position: absolute;
+    left: 35%;
+    width: 50%;
+    top: 5%;
+    height: 5%;
+    background-color: #FFFFFF;
+    border: 1.3px solid #000000;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+#popup_valsts{
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    font-size: 200%;
+}
+
+#popup_datums_src{
+    position: absolute;
+    left: 35%;
+    width: 50%;
+    top: 15%;
+    height: 5%;
+    background-color: #FFFFFF;
+    border: 1.3px solid #000000;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+#popup_datums{
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    font-size: 200%;
+}
+
+#popup_cena_src{
+    position: absolute;
+    left: 35%;
+    width: 50%;
+    top: 25%;
+    height: 5%;
+    background-color: #FFFFFF;
+    border: 1.3px solid #000000;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+#popup_cena{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    font-size: 200%;
+}
+
+#popup_apraksts_src{
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    top: 45%;
+    height: 35%;
+    background-color: #FFFFFF;
+    border: 1.3px solid #000000;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+}
+
+#popup_apraksts{
+    position: absolute;
+    left: 40%;
+    top: 35%;
+    font-size: 200%;
+}
+
+#pievienot_poga{
+    position: absolute;
+    width: 35%;
+    height: 39px;
+    left: 35%;
+    top: 85%;
+    
+    background: linear-gradient(to bottom, #0099cc 0%, #3366ff 100%);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    background-color: transparent;
+    
+    font-family: Asap;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 21px;
+
+}
+
+#pievienot_poga:hover{ 
     box-shadow: 0 0 40px 40px #569AFF
     inset;
     color: white;
