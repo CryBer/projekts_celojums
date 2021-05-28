@@ -1,9 +1,5 @@
-body {
-    margin: 0;
-    border: 2px solid black;
-    background: url(travel.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
+body{
+    background: lightsalmon;
 }
 
 button {
@@ -12,14 +8,16 @@ button {
     left: 41%;
     border-radius: 50%;
     border: 4px solid black;
-    height: 34%;
-    width: 17%;
+    height: 32%;
+    width: 16%;
+    background: lightgreen;
 }
+
 button:hover{ 
-    box-shadow: 0 0 40px 40px lightgrey
-    inset;
+    box-shadow: 0 0 40px 40px whitesmoke;
     outline: none;
 }
+
 img {
     padding: 100px;
     background: url(logo.png);
@@ -43,4 +41,5 @@ h1 {
     padding: 3px;
     position: absolute;
     background-color:lightgray;
+    background: lightyellow;
 }

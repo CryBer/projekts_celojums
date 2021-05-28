@@ -1,12 +1,11 @@
 body {
-    background-color: rgba(41, 127, 226, 1);
-
+    background: lightgray;
 }
 /*augšas header*/
 #header{
-    background: linear-gradient(to bottom, #0099cc 0%, #3366ff 100%);
+    background: lightseagreen;
     position: absolute;
-    width: 99.70%;
+    width: 99.81%;
     height: 18%;
     left: 0px;
     top: 0px;
@@ -21,10 +20,10 @@ body {
     height: 70%;
     left: 20%;
     top: 20%;
-    background: rgba(196, 196, 196, 0.15);
     mix-blend-mode: normal;
     border: 2px solid #000000;
     box-sizing: border-box;
+    background: lightsteelblue;
 }
 /*poga meklēt*/
 #meklet{
@@ -77,12 +76,13 @@ input#valsts{
     position: absolute;
     width: 15%;
     height: 16%;
-    left: 83%;
+    left: 84%;
     top: 1.4%;
-    
-    background: rgba(196, 196, 196, 0.1);
     border: 2px solid #000000;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+    background: lightcyan;
+    border-radius: 15px;
+}
 /*kontaktinformācija*/
 p{
     position: absolute;
@@ -101,47 +101,14 @@ p{
 
 /* Labās puses logs, kur pogas peivienot un atcelt */
 #main2{
-    background: linear-gradient(to bottom, #0099cc 0%, #3366ff 100%);
+    background: lightyellow;
     position: absolute;
     width: 40%;
-    height: 81.10%;
+    height: 80.99%;
     left: 59.70%;
     top: 18.36%;
     
-    border: solid 2px black;
-}
-/* poga pievienot */
-#poga{
-    display: flex;
-    justify-content: center;
-    align-items: center
-}
-/* poga pievienot */
-#pievienot{
-    position: absolute;
-    width: 35%;
-    height: 39px;
-    left: 2%;
-    top: 3%;
-    
-    background: rgba(41, 127, 226, 1);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    background-color: transparent;
-    
-    font-family: Asap;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
-
-}
-/* pogas pievienot animācija */
-#pievienot:hover{ 
-    box-shadow: 0 0 40px 40px #569AFF
-    inset;
-    color: white;
-    outline: none;
+    border: solid 3px black;
 }
 
 /* Uzraksts 'Rezervācijas */
@@ -193,6 +160,8 @@ h2{
 
     border: 2px solid #000000;
     box-sizing: border-box;
+    background: lightsalmon;
+    border-radius: 40px;
 }
 
 /*infor logs 2*/
@@ -205,6 +174,8 @@ h2{
 
     border: 2px solid #000000;
     box-sizing: border-box;
+    background: lightsalmon;
+    border-radius: 40px;
 }
 
 /*Paši apraksta logi*/
@@ -217,6 +188,7 @@ h2{
 
     border: 2px solid #000000;
     box-sizing: border-box;
+    background: whitesmoke;
 }
 
 /*Teksts "Apraksts" apraksta logā*/
@@ -246,6 +218,7 @@ h2{
 
     border: 2px solid #000000;
     box-sizing: border-box;
+    background: whitesmoke;
 }
 
 /*Valsts nosaukums*/
@@ -274,10 +247,10 @@ h2{
     left: 10%;
     top: 80%;
     
-    background: linear-gradient(to bottom, #0099cc 0%, #3366ff 100%);
-    border: 1px solid #000000;
+    background: lightskyblue;
+    border: 2.3px solid #000000;
     box-sizing: border-box;
-    background-color: transparent;
+    border-radius: 15px;
     
     font-family: Asap;
     font-style: normal;
@@ -293,4 +266,25 @@ h2{
     color: white;
     outline: none;
 }
+
+#logo{
+    position: absolute;
+    top: 0.8%;
+    left: 0.3%;
+    width: 180px;
+    height: 160px;
+    border: 3px solid black;
+    background: lightskyblue;
+    border-radius: 50px;
+}
+
+img{
+    top: -13%;
+    left: -6%;
+    padding: 90px;
+    background: url(logo.png);
+    background-repeat: no-repeat; 
+    position: absolute;
+    background-size: auto;
+ }
 

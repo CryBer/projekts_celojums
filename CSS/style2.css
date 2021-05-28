@@ -1,11 +1,6 @@
-body {
-    background-color: rgb(154, 187, 224);
-
-
-}
 /*augšas header*/
 #header{
-    background: linear-gradient(to bottom, #0099cc 0%, #3366ff 100%);
+    background: lightseagreen;
     position: absolute;
     width: 99.70%;
     height: 18%;
@@ -22,10 +17,10 @@ body {
     height: 68%;
     left: 30%;
     top: 20%;
-    background: rgba(196, 196, 196, 0.15);
     mix-blend-mode: normal;
     border: 2px solid #000000;
     box-sizing: border-box;
+    background: lightsteelblue;
 }
 /*poga meklēt*/
 #meklet{
@@ -80,10 +75,33 @@ input#valsts{
     height: 16%;
     left: 83%;
     top: 1.4%;
-    
-    background: rgba(196, 196, 196, 0.1);
     border: 2px solid #000000;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+    background: lightcyan;
+    border-radius: 15px;
+}
+
+#logo{
+    position: absolute;
+    top: 0.8%;
+    left: 0.3%;
+    width: 180px;
+    height: 160px;
+    border: 3px solid black;
+    background: lightskyblue;
+    border-radius: 50px;
+}
+
+img{
+    top: -13%;
+    left: -6%;
+    padding: 90px;
+    background: url(logo.png);
+    background-repeat: no-repeat; 
+    position: absolute;
+    background-size: auto;
+ }
+
 /*kontaktinformācija*/
 p{
     position: absolute;
@@ -99,42 +117,6 @@ p{
     align-items: center;
     letter-spacing: -0.017em;
 }
-
-/* poga pievienot */
-#poga{
-    display: flex;
-    justify-content: center;
-    align-items: center
-}
-/* poga pievienot */
-#pievienot{
-    position: absolute;
-    width: 35%;
-    height: 39px;
-    left: 2%;
-    top: 3%;
-    
-    background: rgba(41, 127, 226, 1);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    background-color: transparent;
-    
-    font-family: Asap;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
-
-}
-/* pogas pievienot animācija */
-#pievienot:hover{ 
-    box-shadow: 0 0 40px 40px #569AFF
-    inset;
-    color: white;
-    outline: none;
-}
-
-
 
 /* Kontaktinformacija */
 h4{
@@ -164,12 +146,12 @@ h2{
     position: absolute;
     width: 15%;
     height: 5%;
-    left: 45%;
+    left: 40%;
     top: 90%;
-    background: #FFFFFF;
+    background: lightskyblue;
     border: 1.3px solid #000000;
-    box-sizing: border-box;
     font-size: 20px;
+    border-radius: 15px;
 }
 
 /* pogas pievienot ceļojumu animācija */
@@ -181,7 +163,7 @@ h2{
 }
 
 #main1{
-    background: linear-gradient(to bottom, #0099cc 0%, #3366ff 100%);
+    background: lightgrey;
     position: absolute;
     width: 99.70%;
     height: 81.1%;
@@ -195,11 +177,13 @@ h2{
     position: absolute;
     width: 47%;
     height: 35%;
-    left: 30%;
+    left: 25%;
     top: 45%;
 
     border: 2px solid #000000;
     box-sizing: border-box;
+    background: lightsalmon;
+    border-radius: 40px;
 }
 
 /*infor logs 1*/
@@ -207,11 +191,13 @@ h2{
     position: absolute;
     width: 47%;
     height: 35%;
-    left: 30%;
+    left: 25%;
     top: 5%;
 
     border: 2px solid #000000;
     box-sizing: border-box;
+    background: lightsalmon;
+    border-radius: 40px;
 }
 
 /*Paši apraksta logi*/
@@ -224,6 +210,7 @@ h2{
 
     border: 2px solid #000000;
     box-sizing: border-box;
+    background: whitesmoke;
 }
 
 /*Teksts "Apraksts" apraksta logā*/
@@ -253,6 +240,7 @@ h2{
 
     border: 2px solid #000000;
     box-sizing: border-box;
+    background: whitesmoke;
 }
 
 /*Valsts nosaukums*/
@@ -281,10 +269,10 @@ h2{
     left: 10%;
     top: 80%;
     
-    background: linear-gradient(to bottom, #0099cc 0%, #3366ff 100%);
+    background: lightskyblue;
     border: 1px solid #000000;
     box-sizing: border-box;
-    background-color: transparent;
+    border-radius: 15px;
 
     font-family: Asap;
     font-style: normal;
@@ -310,16 +298,16 @@ h2{
     left: 50%;
     top: 80%;
     
-    background: linear-gradient(to bottom, #0099cc 0%, #3366ff 100%);
     border: 1px solid #000000;
     box-sizing: border-box;
-    background-color: transparent;
     
     font-family: Asap;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
+    background: lightskyblue;
+    border-radius: 15px;
 
 }
 
@@ -339,10 +327,10 @@ h2{
     left: 29%;
     top: 1%;
     
-    background: linear-gradient(to bottom, #0099cc 0%, #3366ff 100%);
-    border: 1px solid #000000;
+    background: lightslategrey;
+    border: 3px solid #000000;
     box-sizing: border-box;
-    background-color: transparent;
+    border-radius: 15px;
 }
 
 #popup_valsts_src{
@@ -352,7 +340,7 @@ h2{
     top: 5%;
     height: 5%;
     background-color: #FFFFFF;
-    border: 1.3px solid #000000;
+    border: 2px solid #000000;
     box-sizing: border-box;
     font-size: 20px;
 }
@@ -371,7 +359,7 @@ h2{
     top: 15%;
     height: 5%;
     background-color: #FFFFFF;
-    border: 1.3px solid #000000;
+    border: 2px solid #000000;
     box-sizing: border-box;
     font-size: 20px;
 }
@@ -390,7 +378,7 @@ h2{
     top: 25%;
     height: 5%;
     background-color: #FFFFFF;
-    border: 1.3px solid #000000;
+    border: 2px solid #000000;
     box-sizing: border-box;
     font-size: 20px;
 }
@@ -409,7 +397,7 @@ h2{
     top: 45%;
     height: 35%;
     background-color: #FFFFFF;
-    border: 1.3px solid #000000;
+    border: 2px solid #000000;
     box-sizing: border-box;
     font-size: 20px;
     text-align: center;
@@ -425,14 +413,14 @@ h2{
 #pievienot_poga{
     position: absolute;
     width: 35%;
-    height: 39px;
-    left: 35%;
+    height: 45px;
+    left: 33%;
     top: 85%;
     
-    background: linear-gradient(to bottom, #0099cc 0%, #3366ff 100%);
+    background: lightskyblue;
     border: 1px solid #000000;
     box-sizing: border-box;
-    background-color: transparent;
+    border-radius: 15px;
     
     font-family: Asap;
     font-style: normal;
