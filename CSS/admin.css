@@ -191,6 +191,7 @@ h2{
     position: absolute;
     width: 47%;
     height: 35%;
+    margin: 10%;
     left: 25%;
     top: 5%;
 
@@ -203,9 +204,9 @@ h2{
 /*Paši apraksta logi*/
 #infologaapraksts{
     position: absolute;
-    width: 55%;
+    width: 90%;
     height: 45%;
-    left: 2%;
+    left: 5%;
     top: 30%;
 
     border: 2px solid #000000;
@@ -214,11 +215,11 @@ h2{
 }
 
 /*Teksts "Apraksts" apraksta logā*/
-#p2p.center {
+#infologaApraksts.center {
     position: absolute;
     width: 58px;
     height: 26px;
-    left: 40%;
+    left: 20%;
     top: 30%;
 
     font-family: Asap;
@@ -233,7 +234,7 @@ h2{
 /*Logs Ar valsts nosaukumu*/
   #infologavalstsnosakums{
     position: absolute;
-    width: 55%;
+    width: 30%;
     height: 20%;
     left: 2%;
     top: 7%;
@@ -241,6 +242,65 @@ h2{
     border: 2px solid #000000;
     box-sizing: border-box;
     background: whitesmoke;
+}
+
+/*Datums uz infologa*/
+#infologadatums{
+    position: absolute;
+    width: 30%;
+    height: 20%;
+    left: 35%;
+    top: 7%;
+
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    background: whitesmoke;
+}
+
+#infologa_datums{
+    position: absolute;
+    width: 58px;
+    height: 26px;
+    left: 20%;
+    top: 30%;
+
+    font-family: Asap;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.017em;
+}
+
+#infologacena{
+    position: absolute;
+    width: 30%;
+    height: 20%;
+    left: 68%;
+    top: 7%;
+
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    background: whitesmoke;
+}
+
+#infologa_cena{
+    position: absolute;
+    width: 58px;
+    height: 26px;
+    left: 40%;
+    top: 30%;
+
+    font-family: Asap;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.017em;
 }
 
 /*Valsts nosaukums*/
@@ -436,4 +496,9 @@ h2{
     inset;
     color: white;
     outline: none;
+}
+
+#bibleoteka {
+    display: flex;
+    flex-direction: column;
 }
