@@ -321,6 +321,7 @@ h2{
 /*________________________________________________________________________*/
 /*Popup kad spiež*/
 #popup{
+    display: none;
     position: absolute;
     width: 40%;
     height: 95%;
