@@ -22,5 +22,20 @@ document.getElementById("pievienot_poga").addEventListener("click", () => {
 })
 
 function render() {
-    let bibleoteka = documents.getElementById("bibleoteka");
+    let saraksts = documents.getElementById("saraksts");
+    saraksts.innerHTML = "";
+}
+
+function delete_poga(celojums){
+    for(let i = 0; i < celojumi.length; i++) {
+        if(celojums === celojumi[i].popup_valsts_src){
+            delete celojumi[i];
+            break;
+        }
+    }
+
+    celojumi = celojumi.filter(function (e) {return e != null;});
+
+    localStorage.setItem("celojumi", JSON.stringify(celojumi))
+    render();
 }
