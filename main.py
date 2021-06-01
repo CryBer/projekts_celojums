@@ -13,6 +13,6 @@ def klienta():
 
 @app.route('/admin')
 def admin():
-  return render_template("admin copy.html")
+  return render_template("admin.html")
 
 app.run(host='0.0.0.0', port=8080)

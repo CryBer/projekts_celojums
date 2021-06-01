@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+-<!DOCTYPE html>
 <html lang="lv">
 <head>
     <meta charset="UTF-8">
@@ -37,30 +37,55 @@
         <div id="infologs1">
             <button id="redig_poga">Rediģēt</button>
             <button id="delete_poga">Delete</button>
+
+            <div id="infologadatums">
+                <div id="infologa_datums">
+                    DD/MM/YYYY <!-- Te datuma.value-->
+                </div>
+            </div>
+            <div id="infologacena">
+                <div id="infologa_cena">
+                    Cena <!-- Te datuma.value-->
+                </div>
+            </div>
             <div id="infologavalstsnosakums">
                 <div id="valsts_nosaukums">
-                    Valsts
+                    Valsts <!-- Te valsts.value-->
                 </div>
             </div>
             <div id="infologaapraksts">
-                <p2p>Apraksts</p2p>
+                <div id="infologaApraksts">
+                    Apraksts <!-- Te apraksts.value-->
+                </div>
             </div>
         </div>
 
-        <div id="infologs2">
-            <button id="redig_poga">Rediģēt</button>
-            <button id="delete_poga">Delete</button>
-            <div id="infologavalstsnosakums">
-                <div id="valsts_nosaukums">
-                    Valsts
-                </div>
-            </div>
-            <div id="infologaapraksts">
-                <p2p>Apraksts</p2p>
-            </div>
-        </div>
         <button type="submit" id="pievienot_celojumu">Pievienot Ceļojumu</button>
 
+    </div>
+
+    <div id="popup">
+        <input type="text" id="popup_valsts_src" placeholder="Valsts">
+        <div id="popup_valsts">Valsts</div>
+
+        <input type="text" id="popup_datums_src" placeholder="Datums">
+        <div id="popup_datums">Datums</div>
+
+        <input type="text" id="popup_cena_src" placeholder="Cena">
+        <div id="popup_cena">Cena</div>
+
+        <input type="text" id="popup_apraksts_src" placeholder="Apraksts">
+        <div id="popup_apraksts">Apraksts</div>
+
+        <button type="submit" id="pievienot_poga">Pievienot</button>
+    </div>
+
+    <div id="saraksts">
+        <div id="celojums">
+            
+        </div>
+    </div>
+    
     </div>
     <script src="static/JS/admin.js"></script> <!--javasScript-->
 </body>

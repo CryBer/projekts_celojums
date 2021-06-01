@@ -17,11 +17,11 @@ o	statistikas eksports *.csv un *.json formātos
 Rezervācijas drukāšana notiek izveidojot html dokumentu ar šādu tabulu:
 
 |Jānis Bērziņš|Rez. Nr. 000000000        |
-|Maršuts	  |Latvija (LV) – Spānija (S)|
+|Maršuts	    |Latvija (LV) – Spānija (S)|
 |Izbraukšana  |21.01.2019 8:00           |
 |Atgriešanās  |28.01.2019 10:00          |
 |Dienu skaits |7                         |
-|Cena	      |700 euro                  |
+|Cena	        |700 euro                  |
 
 Rezervācijas Nr. var būt paša izdomāts viņam ir jāģenerējas automātiski un jābūt unikālam.
 Visi dati ir jāsaglabā failos.
